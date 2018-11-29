@@ -1,0 +1,142 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+  line-height: 1.5;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  height: 100%;
+  color: #333;
+}
+.Mrphs-footer {
+  display: none;
+}
+#mastLogin #loginForm input[type="text"],
+#mastLogin #loginForm input[type="password"],
+#mastLogin #loginForm input[type="email"] {
+  height: 35px;
+  border-radius: 0.2em;
+  background-color: transparent !important;
+  border: 1px solid #777677;
+  padding: 0.5em;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+#mastLogin #loginForm #submit {
+  border: none;
+  border-radius: 0.2em;
+  height: 35px;
+  font-weight: 600;
+  background-color: #e9983d;
+  color: #fff;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  background-color: #49484b;
+}
+.site-identifier > h3 > a {
+  display: none;
+}
+#toolMenu ul li.Mrphs-collapseTools {
+  display: none;
+}
+#toolMenu ul li a,
+#subSites ul li a {
+  padding: 1em 0;
+}
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a:hover,
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a:active,
+#linkNav ul li.Mrphs-sitesNav__menuitem.is-selected a {
+  background: #333;
+}
+#linkNav ul li.Mrphs-sitesNav__menuitem .Mrphs-sitesNav__dropdown {
+  display: none;
+}
+.all-sites-label {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.all-sites-icon {
+  display: none;
+}
+
+.navIntraTool a,
+.navIntraTool a:hover,
+.navIntraTool li span a:hover,
+.navIntraTool li span a,
+.navIntraTool li span.current {
+  margin: 0.2em;
+  padding: 0.5em 1.5em;
+  background-color: #e9983d;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.navIntraTool a,
+.navIntraTool li span a {
+  background-color: #777677;
+}
+td,
+th {
+  padding: 0.5em 1em !important;
+}
+a[href] {
+  transition: all 500ms ease;
+}
+#mastLogin #loginLinks ul .Mrphs-userData {
+  border: none;
+  background-color: #f5f4f5;
+}
+#mastLogin #loginLinks ul {
+  background-color: #fff;
+}
+.Mrphs-portalWrapper {
+  margin-bottom: 6em;
+}
+#mastLogin #loginLinks ul .Mrphs-userNav__submenuitem-indented:nth-child(3) {
+  display: none;
+}
+#Mrphs-xlogin .logo {
+  background-color: #fff;
+}
+#Mrphs-xlogin {
+  border-radius: 0.4em;
+  padding: 1em;
+}
+#Mrphs-xlogin fieldset input[type="submit"] {
+  padding: 0.5em 1em;
+  text-transform: uppercase;
+}
+body.Mrphs-portalBody {
+  background: #f8f8f8;
+}
+input[type="radio"] {
+  margin-right: 0.5em;
+}
+table.listHier th {
+  font-weight: 600;
+}
+#pageBody > .Mrphs-pagebody {
+  margin-left: 1em;
+}
+input {
+  border-radius: 0.2em;
+  border-width: 1px;
+  height: 35px;
+  padding: 0.5em;
+  border-style: solid;
+  border-color: #bfbebf;
+}
+.navIntraTool {
+  border: none;
+}
+.Mrphs-mainHeader .Mrphs-headerLogo .Mrphs-headerLogo--institution {
+  background-size: contain;
+  background-position: left;
+  height: 45px;
+}

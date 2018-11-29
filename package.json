@@ -1,0 +1,11 @@
+{
+    "name": "myunisa-userstyles",
+    "description": "Clean myUnisa userstyles for Stylish",
+    "scripts": {
+        "format": "prettier --write userstyles.css"
+    },
+    "devDependencies": {
+        "prettier": "^1.15.2"
+    },
+    "license": "CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE"
+}
